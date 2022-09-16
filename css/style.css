@@ -1,0 +1,52 @@
+/* style 3, 5 i 7 sekcji */
+.services,
+footer,
+.team {
+    padding: 60px;
+}
+
+/* style 4 sekcji */
+.showcase-img {
+    background-size: cover;
+    background-position: center;
+
+}
+.showcase-text {
+    padding: 50px;
+}
+
+/* style 5 sekcji */
+.team-item {
+    max-width: 200px;
+}
+
+/* style 6 sekcji */
+
+.call-to-action {
+    background-image: url(../img/slider-1.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 60px;
+}
+
+.btn-primary {
+    display: block;
+    width: 100%;
+}
+
+/* responsywne style */
+@media (max-width: 768px) {
+    .service-item,
+    .team-item {
+        margin-bottom: 50px;
+    }
+
+    .service-item:last-child,
+    .team-item-last {
+        margin: 0;
+    }
+
+    .showcase-img {
+        height: 300px;
+    }
+}
